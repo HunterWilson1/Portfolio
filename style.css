@@ -4,14 +4,10 @@
   margin:0%; 
 }
 
-body {
-background-color: rgb(231, 221, 208);
-}
-
 .header {
 padding: 20px;
 font-style: normal;
-background-color: aquamarine;
+background-color: lightcoral;
 color: black;
 }
 
@@ -44,24 +40,45 @@ a {
     font-size: 20px;
 }
 
+#self {
+    width: 500px;
+    height: fit-content;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 150px;
+    float: left;
+}
 
 .about-me {
-margin: 100px 0px 100px;
-text-align: center;
-height: 500px;
-width: 800px;
-margin-left: 700px;
-background-color: aquamarine;
-display: flex;
-justify-content: center;
+display: flexbox;
+padding: auto;
+margin: 100px 0px 600px 800px;
 }
 
 .about-me h2 {
+    width: fit-content;
+    height:fit-content;
+    background-color: lightskyblue;
+    text-align: center;
     text-decoration: underline;
     margin-bottom: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+.about-me h2 p {
+width: auto;
+height: auto;
+background-color: aqua;
+
 }
 .work {
     text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
 }
 
 .project-1 {
@@ -78,4 +95,28 @@ flex-direction: column;
 .contact-me {
     text-align: center;
     margin-top: 300px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-me ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-me ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
