@@ -4,6 +4,10 @@
   margin:0%; 
 }
 
+body {
+background-color: rgb(231, 221, 208);
+}
+
 .header {
 padding: 20px;
 font-style: normal;
@@ -14,6 +18,7 @@ color: black;
 .header h1 {
     display: inline-flex;
     font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .header nav {
@@ -33,16 +38,44 @@ list-style-type: none;
 }
 
 a {
+    color: black;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
-.float-left {
-float: left;
-margin-right: 25px;
-}
 
 .about-me {
-    height: 300px;
-    margin-bottom: 20px;
-    
+margin: 100px 0px 100px;
+text-align: center;
+height: 500px;
+width: 800px;
+margin-left: 700px;
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+}
+
+.about-me h2 {
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+.work {
+    text-align: center;
+}
+
+.project-1 {
+height: 200px;
+width: 300px;
+border: 10px solid green;
+padding: 50px;
+margin: 100px 0px 0px 500px;
+display: flexbox;
+flex-direction: column;
+
+}
+
+.contact-me {
+    text-align: center;
+    margin-top: 300px;
 }
