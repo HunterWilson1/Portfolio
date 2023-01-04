@@ -1,36 +1,24 @@
 * {
-  box-sizing: border-box;
+  
   padding: 0%; 
   margin:0%; 
 }
 
-.header {
-padding: 20px;
-font-style: normal;
-background-color: lightcoral;
-color: black;
+body {
+margin: 0;
+padding: 16px;
+max-width: auto;
+margin: 0 auto;
 display: flex;
+flex-direction: column;
 }
 
-.header h1 {
-    font-size: 45px;
-    font-family:'Courier New', Courier, monospace;
+header {
     display: flex;
-}
-
-.header nav {
-padding-top: 15px;
-margin-right: 20px;
-float: right;
-}
-
-.header nav ul {
-list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-flex;
-    margin-left: 30px;
+    align-items: center;
+    padding: 13px;
+    background-color: lightcoral;
+    border-radius: 15px;
 }
 
 a {
@@ -41,66 +29,64 @@ a {
     display: inline-block;
 }
 
-#self {
-    width: 500px;
-    height: fit-content;
-    border-radius: 50%;
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin: 8px;
+    display: inline-flex;
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 50px 0px 0px 150px;
+}
+
+.text-container {
+    margin: 100px 0 650px 100px;
+}
+
+.profile {
+    width: 300px;
+    border-radius: 12px;
+    flex-shrink: 0;
     float: left;
-}
-
-.about-me {
-display: flexbox;
-padding: auto;
-margin: 100px 0px 600px 850px;
-}
-
-.about-me h2 {
-    width: fit-content;
-    height:fit-content;
-    background-color: rgb(197, 116, 116);
-    text-align: center;
-    text-decoration: underline;
-    margin-bottom: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    padding: 20px;
-    border-radius: 100%;
-}
-
-.about-me h2 p {
-width: auto;
-height: auto;
-background-color: aqua;
-border: 20px solid black;
-}
-.work {
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
+    justify-content: center;
+    border: 5px solid black;
+    margin: 100px 0 100px 100px;
 }
 
 .project-1 {
-height: 450px;
-width: 700px;
-border: 10px solid green;
-padding: 50px;
-margin: 100px 0px 0px 600px;
-display: flexbox;
-flex-direction: column;
-
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: aquamarine;
+    transition: all 0.3s ease-in-out;
 }
 
-.image {
-    object-fit: contain;
-    height: 450px;
-    width: 450px;
+.project-1:hover {
+    border-color: red;
+    box-shadow: 0 0 20px red
 }
-
+.project-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .contact-me {
     text-align: center;
     margin-top: 300px;
@@ -123,9 +109,18 @@ footer {
     color: black;
     text-align: center;
     padding: 20px;
+    border-radius: 15px;
 }
 
 footer a {
     color: black;
     text-decoration: none;
+}
+
+#name {
+    margin: 0;
+}
+
+#work {
+
 }
