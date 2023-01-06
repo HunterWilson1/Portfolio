@@ -1,126 +1,152 @@
 * {
-  
-  padding: 0%; 
-  margin:0%; 
+  padding: 0%;
+  margin: 0%;
 }
 
 body {
-margin: 0;
-padding: 16px;
-max-width: auto;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
+  margin: 0;
+  padding: 16px;
+  max-width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    padding: 13px;
-    background-color: lightcoral;
-    border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  background-color: lightcoral;
+  border-radius: 15px;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    display: inline-block;
+  color: black;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  /* display: inline-block; */
 }
 
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    margin-bottom: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+}
+.profilePic {
+  text-align: center;
 }
 .links {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    align-items: center;
-    margin: 0;
-    margin-left: auto;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
 }
 
 header nav ul li {
-    list-style-type: none;
-    margin: 8px;
-    display: inline-flex;
+  list-style-type: none;
+  margin: 8px;
+  display: inline-flex;
 }
 
 .container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .text-container {
-    margin: 100px 0 650px 100px;
+  margin: 100px 0 650px 100px;
+}
+
+.text-container h2 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.text-container p {
+  border: 3px solid rgb(121, 93, 93);
+  background-color: rgb(207, 161, 161);
+  font-size: 20px;
 }
 
 .profile {
-    width: 300px;
-    border-radius: 12px;
-    flex-shrink: 0;
-    float: left;
-    justify-content: center;
-    border: 5px solid black;
-    margin: 100px 0 100px 100px;
+  width: 300px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  /* float: left; */
+  justify-content: center;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.work {
+  /* margin-left: 875px;
+margin-bottom: 50px; */
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  /* display: flex; */
 }
 
 .project-1 {
-    width: 800px;
-    height: 600px;
-    overflow: hidden;
-    border: 10px solid black;
-    border-radius: 20px;
-    background-color: aquamarine;
-    transition: all 0.3s ease-in-out;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  border: 10px solid black;
+  border-radius: 20px;
+  background-color: aquamarine;
+  transition: all 0.3s ease-in-out;
+  /* margin-left: 525px; */
+  margin: auto;
 }
 
 .project-1:hover {
-    border-color: red;
-    box-shadow: 0 0 20px red
+  border-color: red;
+  box-shadow: 0 0 20px red;
 }
 .project-1 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 .contact-me {
-    text-align: center;
-    margin-top: 300px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-me ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-me ul li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 footer {
-    background-color: lightcoral;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    border-radius: 15px;
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 footer a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #name {
-    margin: 0;
-}
-
-#work {
-
+  margin: 0;
 }
