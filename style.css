@@ -34,16 +34,12 @@ h2 {
   text-align: center;
 }
 
-.profilePic {
-  text-align: center;
-  margin-top: 50px;
-}
 .links {
   display: flex;
   list-style-type: none;
   padding: 0;
   align-items: center;
-  margin: 0;
+  margin: 0px;
   margin-left: auto;
 }
 
@@ -51,6 +47,11 @@ header nav ul li {
   list-style-type: none;
   margin: 8px;
   display: inline-flex;
+}
+
+.profilePic {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .profile {
