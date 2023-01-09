@@ -12,6 +12,7 @@ body {
   flex-direction: column;
 }
 
+/*beginning of header*/
 header {
   display: flex;
   align-items: center;
@@ -49,6 +50,7 @@ header nav ul li {
   display: inline-flex;
 }
 
+/*Profile image*/
 .profilePic {
   text-align: center;
   margin-top: 50px;
@@ -63,6 +65,7 @@ header nav ul li {
   margin: auto;
 }
 
+/*The about me section*/
 .about-me {
   text-align: center;
   font-size: 40px;
@@ -70,6 +73,7 @@ header nav ul li {
   margin-top: 25px;
 }
 
+/*Work section*/
 .work {
   text-align: center;
   font-size: 40px;
@@ -99,7 +103,7 @@ header nav ul li {
   position: relative;
 }
 
-.project-1:hover {
+.project-1:hover { /*I don't think this was needed for assignment but I wanted to practice pseudo elements*/
   border-color: red;
   box-shadow: 0 0 20px red;
 }
@@ -133,6 +137,15 @@ header nav ul li {
   width: auto;
 }
 
+/*Footer section*/
+footer {
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
 .contact-me {
   text-align: center;
   margin-top: 300px;
@@ -150,11 +163,6 @@ header nav ul li {
   margin: 10px 0;
 }
 
-footer {
-  background-color: lightcoral;
-  color: black;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-}
+
+
 
